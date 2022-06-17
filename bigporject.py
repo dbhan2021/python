@@ -1,13 +1,3 @@
-# Title:
-# Version: 1.0
-# Date: Mar 5 2022
-
-# Author: Diya Bhan
-# Course: Computer Science ICS2O
-# School: Ashbury College, Ottawa
-# Teacher: Mr. Giansante
-
-# Description: Quiz game
 print(
     """  _    _  ____  __    ___  _____  __  __  ____    ____  _____    _____  __  __  ____  ____     ___    __    __  __  ____
 ( \/\/ )( ___)(  )  / __)(  _  )(  \/  )( ___)  (_  _)(  _  )  (  _  )(  )(  )(_  _)(_   )   / __)  /__\  (  \/  )( ___)
@@ -17,7 +7,7 @@ print(
                                                                                                                        
    """
 )
-score = 0
+money = 0
 print(
     """
 Question one: Who was the first man on the moon?
@@ -216,3 +206,4 @@ else:
 
 print("Your score is " + str(score) + " out of 5")
 print("Thanks for playing 'Quiz Game'  Goodbye")
+

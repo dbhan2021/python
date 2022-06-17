@@ -14,16 +14,29 @@ guess=0
 while number!=guess:
     guess = int(input("Please enter any number from 1-100:"))
     if(guess <1 or guess >100):
-        print("Out of Range")
+        print("""━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        Out of Range
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+              """)
     else:
         if guess < number:
-            print('Your guess is too low.')
+            print("""━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Your guess is too low.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+""")
 
         if guess > number:
-            print('Your guess is too high.')
+            print("""━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Your guess is too high.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+""")
 
         if guess == number:
-            print("Good job you win")
+            print("""━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Good job you win
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+""")
             break
         
 
